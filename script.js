@@ -13,10 +13,10 @@ const formSearch = document.querySelector('.form-search'),
 //Данные
 
 //const citiesApi = 'dataBase/cities.json',
-const citiesApi = 'http://api.travelpayouts.com/data/ru/cities.json',
+const citiesApi = 'https://api.travelpayouts.com/data/ru/cities.json',
 proxy = 'https://cors-anywhere.herokuapp.com/',
 API_KEY = '0551ba61bd5cedb8c75d5e1b09a1c801', 
-calendar = 'http://min-prices.aviasales.ru/calendar_preload',
+calendar = 'https://min-prices.aviasales.ru/calendar_preload',
 MAX_COUNT = 10; //статические данные для вывода количества карточек
 
 
