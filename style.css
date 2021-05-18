@@ -25,6 +25,16 @@ h3 {
   padding: 30px 0 15px;
   font-size: 20px;
 }
+
+.btn {
+  display: inline-block;
+  background: #8c959d;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
