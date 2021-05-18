@@ -253,6 +253,8 @@ formSearch.addEventListener('submit', (event) => {
       
       cheapestTicket.style.display = 'block';
       cheapestTicket.innerHTML = '<h2>К сожалению билеты на текущую дату отсуствуют</h2>';
+      otherCheapTickets.style.display = 'block';
+      otherCheapTickets.innerHTML = '<h2></h2>'
       });
    } else {
       cheapestTicket.style.display = 'block';
