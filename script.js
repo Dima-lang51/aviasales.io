@@ -257,6 +257,8 @@ formSearch.addEventListener('submit', (event) => {
    } else {
       cheapestTicket.style.display = 'block';
       cheapestTicket.innerHTML = '<h2>Введите корректное название города!</h2>';
+      otherCheapTickets.style.display = 'block';
+      otherCheapTickets.innerHTML = '<h2></h2>'
    }
 });
 
