@@ -38,7 +38,7 @@ const getData = (url, callback, reject = console.error) => {
          console.error('Ошибка', request.response)
       }
    });
-
+       request.setRequestHeader('Authorization', 'Bearer ' + API_KEY);
        request.send();
 
 };
